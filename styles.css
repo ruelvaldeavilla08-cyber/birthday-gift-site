@@ -1,7 +1,7 @@
 body {
+    background: linear-gradient(#a2d2ff, pink);
     text-align: center;
     font-family: 'Happy Monkey', cursive;
-    background: #a2d2ff;
     color: #ffffff;
 }
 
@@ -57,44 +57,59 @@ h1, h2, h3, h4, p {
     cursor: pointer;
     align-items: center;
     justify-content: center;
-    background-image: url("Gift-.jpg");
+    background-image: url("images/Gift-.jpg");
     background-size: cover;
+    background-position: center;
 }
 
-.gift:hover {
-    background-image: url("Birthday_Penguins.gif");
+.gift2 {
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+    border: 6px solid white;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    background-image: url("images/Gift-.jpg");
+    background-size: cover;
+    background-position: center;
 }
+
 
 .Message2 {
     margin-top: 50px;
 }
 
-.gift2 {
-    border: 6px solid white;
-    width: 400px;
-    height: 400px;
-    margin: 0 auto;
-    cursor: pointer;
-    align-items: center;
-    justify-content: center;
-    background-image: url("Gift-.jpg");
-    background-size: cover;
-}
-
 #gift1:hover {
-    background-image: url("Birthday_Penguins.gif")
+    background-image: url("images/Birthday_Penguins.gif");
 }
 
 #gift2:hover {
-    background-image: url("smile.gif")
+    background-image: url("images/smile.gif");
+}
+
+#gift3:hover {
+    background-image: url("images/Rection.gif");
+}
+
+#gift4:hover {
+    background-image: url("images/Deadpool_dance.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("images/Cheers.gif");
+}
+
+#last_part {
+    color: white;
+    width: 400px;
+    margin: 50px auto 30px auto;
+    font-style: italic;
+}
+
+a {
+    color: white;
 }
 
 
-/*
-Challenge:
-First, wrap the HTML elements in a <div> with an 
-id called "header".
 
-Then, select the "header" and use flexbox to achieve
-the layout you've been provided in the design slide.
-*/
